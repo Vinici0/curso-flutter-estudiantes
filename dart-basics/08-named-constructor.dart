@@ -6,9 +6,6 @@ void main() {
   final ironman = Heroe.fromJson(rawJson);
 
   print(ironman);
-
-//   final wolverine = new Heroe(nombre:'Logan', poder: 'Regeneración');
-//   print( wolverine );
 }
 
 class Heroe {
